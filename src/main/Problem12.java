@@ -1,11 +1,12 @@
 /* In Progress
  * Project Euler Problem 12: Highly Divisible Triangular Number
  * Finds first triangular number with over n divisors.
+ * Karen Lo © 2018
  */
 
 public class Problem12 {
     public static void main(String[] args) {
-        int minDivisors = Integer.parseInt(args[0]);
+        int minDivisors = 500;
         System.out.println(triangleNumFinder(minDivisors));
     }
 
